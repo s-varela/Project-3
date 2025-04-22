@@ -1,6 +1,6 @@
 // Google Maps function
 function initMap() {
-  const soldierfield = { lat: 41.8625, lng: -87.6166 };
+  const soldierField = { lat: 41.8625, lng: -87.6166 };
 
   const map = new google.maps.Map(document.getElementById("googlemap"), {
     zoom: 15,
