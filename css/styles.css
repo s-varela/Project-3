@@ -215,14 +215,13 @@ a {
   }
 
   .image1, .image2, .image3 {
-	display: block;
-    width: 90%; 
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	display: block;           
+    width: 650px;
     height: auto;
-    margin: 10px 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; 
   }
 
   .pfont {
