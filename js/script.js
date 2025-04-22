@@ -6,14 +6,12 @@ function initMap() {
     center: soldierField,
   });
 
-  
   var marker = new google.maps.Marker({
     position: soldierField,
-    map,
+    map: map,
     title: "Soldier Field",
   });
 
-  
   var infoWindow = new google.maps.InfoWindow({
     content: "<h3>SOLDIER FIELD</h3><p>I will be going to the Weeknd's concert on May 31st, FRONT ROW!</p>",
   });
@@ -40,4 +38,6 @@ function initMap() {
     ],
   });
 }
+
+
 window.initMap = initMap;
