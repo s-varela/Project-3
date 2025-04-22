@@ -1,26 +1,25 @@
-// Google Maps function
 function initMap() {
-  const soldierField = { lat: 41.8625, lng: -87.6166 };
+  var soldierField = { lat: 41.8625, lng: -87.6166 };
 
-  const map = new google.maps.Map(document.getElementById("googlemap"), {
+  var map = new google.maps.Map(document.getElementById("googlemap"), {
     zoom: 15,
     center: soldierField,
   });
 
   
-  const marker = new google.maps.Marker({
+  var marker = new google.maps.Marker({
     position: soldierField,
     map,
     title: "Soldier Field",
   });
 
   
-  const infoWindow = new google.maps.InfoWindow({
+  var infoWindow = new google.maps.InfoWindow({
     content: "<h3>SOLDIER FIELD</h3>
 	<p>I will be going to the Weeknd's concert on May 31st, FRONT ROW!</p>",
   });
 
-  marker.addListener("click", () => {
+  marker.addListener("click", function () => {
     infoWindow.open(map, marker);
   });
 
