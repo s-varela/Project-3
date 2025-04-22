@@ -172,3 +172,65 @@ a {
   line-height: 1;
   color: black;
 }
+ /* this would be for tablet */
+@media (min-width: 768px) {
+  
+  #header h1 {
+    font-size: 2.5em;
+  }
+
+  #main-nav ul li a {
+    padding: 12px 30px;
+  }
+
+  .image1, .image2, .image3 {
+    width: 90%;
+    max-width: 600px;
+    margin: 15px auto;
+  }
+
+  .pfont {
+    font-size: 1.2em;
+    margin: 20px;
+  }
+
+  iframe {
+    width: 750%;
+    max-width: 550px;
+    height: 550px;
+    margin: 25px auto;
+  }
+}
+	
+/* for mobile phones */	
+@media (min-width: 480px) {
+  
+  #header h1 {
+    font-size: 2.2em; 
+  }
+  
+  #main-nav ul li a {
+    padding: 8px 15px; 
+    font-size: 1.1em; 
+  }
+
+  .image1, .image2, .image3 {
+    width: 100%; 
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .pfont {
+    font-size: 1em; 
+    margin: 10px 15px; 
+    line-height: 1.5; 
+  }
+
+  
+  iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+    margin: 15px 0;
+  }
+}
