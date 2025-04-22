@@ -1,0 +1,174 @@
+body {
+  background-image: url("../media/olive.png");
+}
+
+#page-wrapper {
+  width: 960px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
+  border-radius: 12px 12px 0px 0px;
+}
+
+#header{
+  position: relative;
+  margin-top: 30px;
+  margin-top: 20px;
+  border-radius: 12px 12px 0px 0px; 
+}
+
+#header h1 {
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3em;
+  font-family: "Barriecito", system-ui;
+  font-weight: 400; 
+  color: white;	
+  text-align: center;
+}
+
+#header #toplink {
+  text-decoration: none;
+  position: absolute;
+  top:-34px;
+  right: 10px;
+  color: white;
+  font-size: 1.8em;	
+}
+
+h2 {
+  position: relative;
+  top: 30px;
+  bottom: 20px;
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+h3{
+  color: black;
+  margin-left: 40px;
+  position: relative;
+  top: 20px;
+}
+
+#content-wrapper {
+  background-color: #a7ad9e;
+  width: 100%;
+  height: auto;
+}
+
+#main-wrapper {
+  min-height: auto;
+  width: 100%;
+  margin-right: 30px;
+  float: left;
+  margin-left: 60px;  
+  background-color: #a7ad9e;
+}
+
+#main-nav {
+  float: left;
+  width: 100%;
+  background-color: #4a3322;	
+}
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left:50%;	
+}
+
+#main-nav ul li {
+  float: left;
+  position: relative;
+  right: 50%; 	
+}
+
+#main-nav ul li a {
+  padding: 10px 25px;
+  display: block;
+  text-decoration: none;
+  color: white;	
+}
+
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: white;		
+}
+
+#center {
+  width: 100%;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 20px;
+}
+
+p {
+  text-align: start;
+  border: solid;
+  border-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+a {
+  margin-left: 40px;
+}
+
+.pfont { 
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 18px;
+  margin: 40px;
+  padding: 20px;
+  line-height: 1;
+  color: black;
+}
+
+.image1, .image2, .image3 {
+  display: block;           
+  width: 650px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+
+.bull1 {
+  position: relative;
+  top: 20px;
+}
+
+#education, #skills, #workexperience{
+  top: 20px;
+}
+
+.bull2 {
+  position: relative;
+  margin: 20px;
+  bottom: 30px;
+  margin-left: 30px;
+}
+.font {  
+  margin: 40px;
+  padding: 20px;
+  line-height: 1;
+  color: black;
+}
