@@ -15,11 +15,10 @@ function initMap() {
 
   
   var infoWindow = new google.maps.InfoWindow({
-    content: "<h3>SOLDIER FIELD</h3>
-	<p>I will be going to the Weeknd's concert on May 31st, FRONT ROW!</p>",
+    content: "<h3>SOLDIER FIELD</h3><p>I will be going to the Weeknd's concert on May 31st, FRONT ROW!</p>",
   });
 
-  marker.addListener("click", function () => {
+  marker.addListener("click", function () {
     infoWindow.open(map, marker);
   });
 
@@ -41,4 +40,4 @@ function initMap() {
     ],
   });
 }
-window,initMap = initMap;
+window.initMap = initMap;
