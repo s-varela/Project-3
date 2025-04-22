@@ -209,6 +209,13 @@ a {
     font-size: 2.2em; 
   }
   
+   h2 {
+    position: relative;
+    top: 30px;
+    bottom: 20px;
+   }
+  
+  
   #main-nav ul li a {
     padding: 8px 15px; 
     font-size: 1.1em; 
